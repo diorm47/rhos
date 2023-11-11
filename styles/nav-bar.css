@@ -1,0 +1,57 @@
+nav {
+  padding-top: 56px;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_btn {
+  padding: 10px;
+  border-radius: 30px;
+  width: 199px;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_content {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.nav_menu p {
+  color: var(--white, #fff);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lang_toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lang_toggler p {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lang_toggler span {
+  color: #b9b9b9;
+}
+
