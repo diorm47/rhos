@@ -9,6 +9,9 @@
 @import url(./investing-strategy.css);
 @import url(./development.css);
 @import url(./career.css);
+@import url(./history.css);
+@import url(./about-us.css);
+
 * {
   margin: 0;
   padding: 0;

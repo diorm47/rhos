@@ -1,0 +1,27 @@
+.history_header {
+  margin: 20px 0 40px;
+  background: url(../assets/images/history-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.history_text {
+  padding: 110px 0 120px;
+  border-radius: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 120px !important;
+}
+
+.history_text p {
+  color: #fff;
+  width: 766px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
