@@ -1,0 +1,35 @@
+.contacts_page {
+  padding-top: 60px;
+}
+
+.contacts_page_block {
+  border-radius: 70px;
+  background: #fff;
+  padding: 70px;
+  margin-top: 60px !important;
+}
+
+.contacts_page_block_text p {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: normal;
+}
+
+.contacts_page_block_text span,
+.contacts_page_block_text a {
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts_page_block .contact_form {
+  background: #050605;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,117 @@
+.analytics_header {
+  margin-top: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analytics_header img {
+  margin-right: 60px;
+}
+.analytics_aproach {
+  padding-top: 120px;
+}
+.analytics_aproach .page_title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.analytics_aproach_card {
+  height: 257px;
+  border-radius: 30px;
+  background: #fff;
+  padding-top: 65px;
+  text-align: center;
+}
+
+.analytics_aproach_card h2 {
+  color: var(--, #1d1d1d);
+  margin-bottom: 17px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.analytics_aproach_card p {
+  color: var(--, #1d1d1d);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.analytics_aproach_card_secondary {
+  background: #88b702;
+}
+
+.analytics_aproach_card_secondary p,
+.analytics_aproach_card_secondary h2 {
+  color: #fff;
+}
+
+.analytic_advantages {
+  padding-top: 120px;
+}
+.analytic_advantages .page_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.analytic_advantages_cards {
+  width: 974px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analytic_advantages_cards .main_card_temp:nth-child(1),
+.analytic_advantages_cards .main_card_temp:nth-child(2) {
+  width: 49%;
+  height: 322px;
+}
+
+.analytic_advantages_cards .main_card_temp h3 {
+  color: var(--white, #fff);
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.02px; /* 170.1% */
+}
+.analytic_advantages_cards .main_card_temp p {
+  color: var(--white, #fff);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.004px; /* 177.8% */
+}
+
+.analytic_advantages_cards .main_card_temp:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.analytics_bottom_text {
+  width: 974px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.analytics_bottom_text .page_title p {
+  color: #fff;
+  width: 665px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

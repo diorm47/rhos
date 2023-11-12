@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap");
 @import url(./nav-bar.css);
 @import url(./main-page.css);
+@import url(./contacts.css);
+@import url(./analytics.css);
+@import url(./porfolio-invest.css);
 * {
   margin: 0;
   padding: 0;
@@ -36,4 +39,46 @@ a {
 .main_wrapper {
   width: 1240px;
   margin: 0 auto;
+}
+
+.pages_navigation {
+  margin-top: 60px;
+}
+.pages_navigation p a,
+.pages_navigation p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pages_navigation p a span {
+  color: #9d9d9d;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.page_title h1 {
+  color: #fff;
+  margin-bottom: 23px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.page_title p {
+  width: 520px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p_120px {
+  padding: 120px 0;
+}
+.p_120px_top {
+  padding-top: 120px;
 }
