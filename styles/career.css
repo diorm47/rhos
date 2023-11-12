@@ -1,0 +1,152 @@
+.career_header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.career_header .page_title h1 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 49.992px; /* 142.834% */
+  letter-spacing: -1px;
+}
+
+.career_header .page_title p {
+  color: var(--white, #fff);
+  width: auto;
+  max-width: 614px;
+  margin-top: 16px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.004px; /* 177.8% */
+}
+.development_cards_wrapper {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.development_card {
+  max-width: 585px;
+  height: 246px;
+  padding: 58px 32px;
+  border-radius: 40px;
+  background: var(--green-grey, rgba(255, 255, 255, 0.1));
+  display: flex;
+  align-items: start;
+  gap: 24px;
+}
+
+.development_card p {
+  color: var(--white, #fff);
+  margin-bottom: 13px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.992px; /* 144.4% */
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.development_card span {
+  color: var(--white, #fff);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+.ltd {
+  background: #fff;
+  padding: 90px 0 110px;
+}
+
+.ltd_wrapper h1 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 38px;
+}
+.ltd_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ltd_card {
+  width: 28%;
+}
+.ltd_card p {
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ltd_card span {
+  color: #000;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.vacancies_card {
+  width: 31%;
+  overflow: hidden;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.vacancies_card img {
+  width: 100%;
+  height: 215px;
+  object-fit: cover;
+}
+.vacancies_card_descr {
+  padding: 0 40px 47px;
+}
+.vacancies_card_descr p {
+  margin: 40px 0 13px;
+  color: var(--white, #fff);
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.998px; /* 140.9% */
+}
+.vacancies_card_descr span {
+  color: var(--white, #fff);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.5px; /* 178.125% */
+}
+
+.vacancies_card_descr svg {
+  margin-top: -35px;
+}
+.vacancies_cards {
+  display: flex;
+  align-items: start;
+  gap: 25px;
+}
+.vacancies_text p {
+    margin-top: 50px;
+  color: #fff;
+  width: 816px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.5px; /* 142.5% */
+}
