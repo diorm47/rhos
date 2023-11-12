@@ -31,6 +31,7 @@ input {
 button {
   cursor: pointer;
 }
+
 a {
   text-decoration: none;
 }
@@ -38,12 +39,17 @@ a {
   background: #88b702;
   color: #fff;
   font-family: "DM Sans", sans-serif;
-
+  transition: all 0.7s ease;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+.main_btn:hover {
+  background: #72e400;
+  transition: all 0.7s ease;
+
+}
 .main_wrapper {
   width: 1240px;
   margin: 0 auto;

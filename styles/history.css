@@ -12,8 +12,12 @@
   border-radius: 200px;
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 120px !important;
+  position: relative;
 }
-
+.history_text_gr {
+  position: absolute;
+  left: -140px;
+}
 .history_text p {
   color: #fff;
   width: 766px;

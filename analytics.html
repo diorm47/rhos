@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Аналитика | RHOS</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon.svg"
+    />
   </head>
   <body>
     <nav>
@@ -14,8 +27,35 @@
         </a>
         <div class="nav_content">
           <div class="nav_menu">
-            <a href="#"><p>Общая информация</p></a>
-            <a href="./investing-strategy.html"><p>Инвестиционная стратегия</p></a>
+            <div class="nav_menu_list_btn">
+              <p onclick="toggleNavList()" class="nav_menu_list_btn_toggler">
+                Общая информация
+              </p>
+              <div class="nav_menu_list" style="display: none">
+                <p onclick="toggleNavList()" class="list_top">
+                  Общая информация
+                </p>
+                <a href="./about-us.html"><p>О нас</p></a>
+                <a href="./history.html"><p>История основания</p></a>
+                <a href="./career.html"><p>Карьера</p></a>
+                <a href="./development.html"><p>Развитие</p></a>
+                <a href="./investing-strategy.html"
+                  ><p>Инвестиционная стратегия </p></a
+                >
+                <a href="./esg-invest.html"><p>ESG-инвестиции</p></a>
+                <a href="./trust-management.html"
+                  ><p>Доверительное управление</p></a
+                >
+                <a href="./portfolio-investing.html"
+                  ><p>Портфельное инвестирование</p></a
+                >
+                <a href="./analytics.html"><p>Аналитика</p></a>
+                <a href="./contacts.html"><p>Контакты</p></a>
+              </div>
+            </div>
+            <a href="./investing-strategy.html"
+              ><p>Инвестиционная стратегия</p></a
+            >
             <a href="./contacts.html"><p>Контакты</p></a>
           </div>
           <button class="main_btn nav_btn">Читать больше</button>
@@ -90,6 +130,7 @@
       </div>
     </div>
     <div class="analytic_advantages main_wrapper">
+      <img src="./assets/images/gradients/analytic-1.svg" class="analytic_gr_1" alt="">
       <div class="page_title">
         <h1>Преимущества нашей Аналитики:</h1>
       </div>
@@ -122,6 +163,8 @@
       </div>
     </div>
     <div class="analytics_bottom_text">
+      <img src="./assets/images/gradients/amalytic-2.svg" class="analytic_gr_2" alt="">
+
       <div class="page_title">
         <h1>Ваше Ключевое к Успеху</h1>
         <p>
@@ -136,35 +179,46 @@
       </div>
     </div>
     <div class="contact_block main_wrapper">
-        <a href="./index.html" class="footer_logo">
-          <img src="./assets/footer-logo.svg" alt="" />
-        </a>
-        <div class="contacts_block_wrapper">
-          <div class="contacts_text">
+      <a href="./index.html" class="footer_logo">
+        <img src="./assets/footer-logo.svg" alt="" />
+      </a>
+      <div class="contacts_block_wrapper">
+        <div class="contacts_text">
+          <p>
+            Мы готовы ответить на ваши вопросы, предоставить дополнительную
+            информацию о наших услугах и помочь вам начать свой путь к
+            финансовому успеху. Ниже вы найдете способы, как с нами связаться:
+          </p>
+        </div>
+        <div class="contact_form">
+          <div class="contact_form_text">
             <p>
-              Мы готовы ответить на ваши вопросы, предоставить дополнительную
-              информацию о наших услугах и помочь вам начать свой путь к
-              финансовому успеху. Ниже вы найдете способы, как с нами связаться:
+              Если вы предпочитаете, вы можете воспользоваться нашей онлайн
+              формой обратной связи на сайте. Оставьте свои контактные данные и
+              ваш вопрос, и мы свяжемся с вами в ближайшее время.
             </p>
           </div>
-          <div class="contact_form">
-            <div class="contact_form_text">
-              <p>
-                Если вы предпочитаете, вы можете воспользоваться нашей онлайн
-                формой обратной связи на сайте. Оставьте свои контактные данные и
-                ваш вопрос, и мы свяжемся с вами в ближайшее время.
-              </p>
-            </div>
-            <input type="text" placeholder="Ваше имя" id="name" name="name" />
-            <input type="tel" placeholder="Номер телефона" id="number" name="number" />
-            <input type="text" placeholder="Сообщение" id="message" name="message" />
-             <button class="main_btn contact_btn">Отправить</button>
-          </div>
-        </div>
-        <div class="footer_line"></div>
-        <div class="rights">
-          <p>All rights reserved</p>
+          <input type="text" placeholder="Ваше имя" id="name" name="name" />
+          <input
+            type="tel"
+            placeholder="Номер телефона"
+            id="number"
+            name="number"
+          />
+          <input
+            type="text"
+            placeholder="Сообщение"
+            id="message"
+            name="message"
+          />
+          <button class="main_btn contact_btn">Отправить</button>
         </div>
       </div>
+      <div class="footer_line"></div>
+      <div class="rights">
+        <p>All rights reserved</p>
+      </div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>

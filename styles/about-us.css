@@ -36,6 +36,12 @@
   display: flex;
   align-items: start;
   gap: 60px;
+  position: relative;
+}
+.company_values_gr{
+  position: absolute;
+  left: -140px;
+  top: 0;
 }
 .company_values_left p {
   max-width: 420px;

@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>История основания | RHOS</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon.svg"
+    />
   </head>
   <body>
     <nav>
@@ -14,7 +27,32 @@
         </a>
         <div class="nav_content">
           <div class="nav_menu">
-            <a href="#"><p>Общая информация</p></a>
+            <div class="nav_menu_list_btn">
+              <p onclick="toggleNavList()" class="nav_menu_list_btn_toggler">
+                Общая информация
+              </p>
+              <div class="nav_menu_list" style="display: none">
+                <p onclick="toggleNavList()" class="list_top">
+                  Общая информация
+                </p>
+                <a href="./about-us.html"><p>О нас</p></a>
+                <a href="./history.html"><p>История основания</p></a>
+                <a href="./career.html"><p>Карьера</p></a>
+                <a href="./development.html"><p>Развитие</p></a>
+                <a href="./investing-strategy.html"
+                  ><p>Инвестиционная стратегия </p></a
+                >
+                <a href="./esg-invest.html"><p>ESG-инвестиции</p></a>
+                <a href="./trust-management.html"
+                  ><p>Доверительное управление</p></a
+                >
+                <a href="./portfolio-investing.html"
+                  ><p>Портфельное инвестирование</p></a
+                >
+                <a href="./analytics.html"><p>Аналитика</p></a>
+                <a href="./contacts.html"><p>Контакты</p></a>
+              </div>
+            </div>
             <a href="./investing-strategy.html"
               ><p>Инвестиционная стратегия</p></a
             >
@@ -43,6 +81,7 @@
       </div>
     </div>
     <div class="history_text main_wrapper">
+      <img src="./assets/images/gradients/history.svg" class="history_text_gr" alt="">
       <p>
         RHOS Investment Services Ltd была основана в 2007 году группой
         предприимчивых профессионалов с богатым опытом в сфере финансов и
@@ -125,5 +164,6 @@
         <p>All rights reserved</p>
       </div>
     </div>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>

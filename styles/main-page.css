@@ -100,6 +100,12 @@
 
 .our_advantages {
   padding-top: 120px;
+  position: relative;
+}
+.our_advantages_gr {
+  right: 0;
+  top: -300px;
+  position: absolute;
 }
 .block_title h1 {
   color: var(--white, #fff);

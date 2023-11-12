@@ -37,6 +37,9 @@ nav {
   font-weight: 400;
   line-height: normal;
 }
+.nav_menu p:hover {
+  text-decoration: underline;
+}
 
 .lang_toggler {
   display: flex;
@@ -55,3 +58,47 @@ nav {
   color: #b9b9b9;
 }
 
+.nav_menu_list_btn {
+  position: relative;
+}
+.nav_menu_list {
+  top: -24px;
+  left: -33px;
+  width: 251px;
+  /* height: 277px; */
+  position: absolute;
+  z-index: 111;
+
+  border-radius: 20px;
+  background: #fff;
+  padding: 25px;
+}
+
+.nav_menu_list p {
+  color: #000;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_menu_list .list_top {
+  margin-bottom: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav_menu_list_btn_toggler {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav_menu_list a:last-child p {
+  margin: 0;
+}
+.nav_menu_list p:hover {
+  text-decoration: underline;
+}
+.open {
+  display: block !important;
+}

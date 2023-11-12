@@ -20,6 +20,11 @@
 
 .development_header_right {
   padding-top: 45px;
+  position: relative;
+}
+.development_gr_1 {
+  position: absolute;
+  right: -39px;
 }
 .development_card {
   border-radius: 150px;
@@ -79,6 +84,11 @@
   align-items: center;
   justify-content: flex-end;
   padding: 15px 0;
+  position: relative;
+}
+.development_gr_2 {
+  position: absolute;
+  left: -140px;
 }
 
 .development_third_card {

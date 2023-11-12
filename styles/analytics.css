@@ -53,6 +53,11 @@
 
 .analytic_advantages {
   padding-top: 120px;
+  position: relative;
+}
+.analytic_gr_1 {
+  position: absolute;
+  left: -140px;
 }
 .analytic_advantages .page_title {
   text-align: center;
@@ -104,7 +109,14 @@
   width: 974px;
   margin: 0 auto;
   padding-top: 100px;
+  position: relative;
   padding-bottom: 120px;
+ 
+}
+.analytic_gr_2 {
+  position: absolute;
+  right: -270px;
+  top: -360px;
 }
 
 .analytics_bottom_text .page_title p {
