@@ -96,3 +96,12 @@ a {
 .p_120px_top {
   padding-top: 120px;
 }
+
+
+@media only screen and (max-width: 1260px) {
+  .main_wrapper {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

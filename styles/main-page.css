@@ -338,3 +338,196 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media only screen and (max-width: 1200px) {
+  .main_header_wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+  .main_header {
+    height: auto;
+  }
+  .main_header_right_wrapper {
+    top: 0;
+    right: 0;
+  }
+  .main_header_right {
+    width: 100%;
+  }
+  .main_header_left {
+    width: 100%;
+  }
+  .main_header_right_wrapper .main_header_img {
+    position: static;
+  }
+  .main_secondary {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_secondary div {
+    width: 100%;
+  }
+  .main_secondary_left p {
+    width: auto;
+    text-align: center;
+    padding: 60px 30px 30px;
+  }
+  .contact_block {
+    width: 95% !important;
+    margin: 0 auto;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .contacts_block_wrapper {
+    flex-direction: column;
+  }
+  .contacts_text {
+    margin-bottom: 30px;
+  }
+  .main_secondary_left p {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .advantages_blocks,
+  .our_services_cards {
+    flex-direction: column;
+  }
+  .advantages_little_column,
+  .advantage_center {
+    width: 100%;
+  }
+  .advantages_little_column .main_card_temp {
+    height: auto;
+  }
+  .our_services_cards .main_card_temp {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main_header_left h1 {
+    margin-top: 70px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.992px; /* 135.968% */
+    letter-spacing: -1px;
+  }
+  .main_header_left p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.004px;
+    margin: 12px 0 24px;
+  }
+  .main_header_left button {
+    width: 192px;
+    height: 49px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .main_secondary_left p {
+    font-size: 12px;
+  }
+  .our_advantages {
+    padding-top: 80px;
+  }
+  .block_title h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.02px;
+  }
+  .block_title p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.504px;
+    margin-top: 0;
+  }
+  .advantages_blocks {
+    margin-top: 40px;
+  }
+  .advantage_center {
+    text-align: center;
+    padding-left: 16px;
+  }
+  .our_services .block_title {
+    margin-bottom: 24px;
+  }
+  .recommend_block {
+    margin: 80px 0 !important;
+    height: 348px;
+  }
+  .recommend_block h3 {
+    font-size: 16px;
+  }
+  .recommend_block p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    width: 80%;
+  }
+  .contact_form {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 80px;
+  }
+  .contact_form input,
+  .contact_btn {
+    width: 100%;
+    height: 37px;
+    text-indent: 20px;
+    font-size: 12px;
+  }
+  .contact_btn {
+    text-indent: 0;
+  }
+  .contacts_text p {
+    font-size: 12px;
+    margin-top: 45px;
+    width: auto;
+  }
+  .contact_form_text p {
+    font-size: 12px;
+  }
+  .our_services_cards .main_card_temp h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .our_services_cards .main_card_temp p {
+    font-size: 14px;
+  }
+  .our_services {
+    padding-top: 80px;
+  }
+  .main_card_temp h3 {
+    font-size: 16px;
+  }
+  .adv_center_img img {
+    width: 100%;
+  }
+  .main_card_temp .advantage_center {
+    overflow: hidden;
+  }
+  .advantage_center p br,
+  .recommend_block h3 br {
+    display: none;
+  }
+  .main_header_right_wrapper .main_header_img {
+    width: 100%;
+  }
+  .main_header_bg {
+    right: -30px;
+    top: -340px;
+  }
+  .main_header_left {
+    position: relative;
+    z-index: 11;
+  }
+}

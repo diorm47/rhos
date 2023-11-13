@@ -102,3 +102,89 @@ nav {
 .open {
   display: block !important;
 }
+.nav_menu_icon {
+  display: none;
+}
+.nav_mob_menu {
+  width: 100%;
+  padding: 50px 20px 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1111;
+  right: 0;
+  height: 100vh;
+  position: fixed;
+  background: var(--green-bg, #050605);
+  transition: all 0.4s ease;
+  transform: translate(100%);
+}
+.visible_menu {
+  transition: all 0.4s ease;
+  transform: translate(0);
+}
+.nav_exit_menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  justify-content: space-between;
+}
+.nav_mob_menu_list h3 {
+  margin-bottom: 20px;
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav_mob_menu_list p {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav_mob_menu_list_line {
+  width: 253px;
+  height: 1px;
+  background: #c7c7c7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav_mob_menu_list .lang_toggler {
+  align-items: start;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.nav_mob_menu_content {
+  position: relative;
+}
+.nav_mob_menu_content .nav_grad {
+  position: absolute;
+  left: -20px;
+  top: -100px;
+}
+.nav_mob_menu_content div {
+  position: relative;
+}
+@media only screen and (max-width: 1200px) {
+  .nav_btn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .nav_content {
+    display: none;
+  }
+  .nav_menu_icon {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    padding-top: 50px;
+  }
+}
