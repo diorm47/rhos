@@ -33,3 +33,17 @@
   margin-top: 55px;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  .contacts_page {
+    padding-top: 30px;
+  }
+  .contacts_page .page_title p {
+    width: auto;
+  }
+  .contacts_page_block  {
+    margin-top: 34px !important;
+    border-radius: 50px;
+    padding: 55px 17px 90px;
+  }
+}

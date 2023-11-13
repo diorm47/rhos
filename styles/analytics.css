@@ -111,7 +111,6 @@
   padding-top: 100px;
   position: relative;
   padding-bottom: 120px;
- 
 }
 .analytic_gr_2 {
   position: absolute;
@@ -126,4 +125,102 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.analytics_wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1260px) {
+  .analytics_header img {
+    width: 50%;
+  }
+  .analytics_header .page_title p {
+    width: auto;
+  }
+  .analytic_advantages_cards,
+  .analytics_bottom_text {
+    width: 100%;
+  }
+  .analytics_bottom_text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .analytics_header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .analytics_header img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .analytics_header {
+    margin-top: 40px !important;
+  }
+  .analytics_aproach,
+  .analytic_advantages {
+    padding-top: 80px;
+  }
+  .analytics_aproach .page_title,
+  .analytic_advantages .page_title {
+    margin-bottom: 0;
+  }
+  .analytics_aproach_card {
+    height: 251px;
+  }
+  .analytics_aproach_card h2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .analytics_aproach_card p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px;
+  }
+  .analytics_aproach_card p br {
+    display: none;
+  }
+  .analytic_advantages_cards {
+    flex-direction: column;
+  }
+  .analytic_advantages_cards .main_card_temp {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .analytic_advantages_cards .main_card_temp h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .analytic_advantages_cards .main_card_temp p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.004px;
+  }
+  .analytics_bottom_text .page_title h1 {
+    font-size: 25px;
+
+    font-weight: 500;
+  }
+  .analytics_bottom_text .page_title p {
+    width: auto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+  }
+  .analytics_bottom_text {
+    padding: 40px 20px 80px;
+  }
+
 }

@@ -29,3 +29,44 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media only screen and (max-width: 800px) {
+  .history_text p {
+    width: auto;
+  }
+  .history_text {
+    border-radius: 80px;
+  }
+  .history_text {
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+    margin-bottom: 80px !important;
+  }
+  .history_text_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .history_header h1 {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 0 !important;
+  }
+  .history_header {
+    padding: 70px 0 !important;
+  }
+  .history_text p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .history_text {
+    padding: 60px 23px;
+  }
+  .history_text_gr {
+    top: 0;
+  }
+}

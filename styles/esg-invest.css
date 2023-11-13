@@ -6,7 +6,7 @@
   margin-bottom: 30px;
 }
 .esg_invest_header_block {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
   overflow: hidden;
 }
 .esg_invest_blocks {
-    padding-bottom: 120px;
+  padding-bottom: 120px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -81,4 +81,88 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media only screen and (max-width: 1300px) {
+  .esg_invest_header_block {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .esg_invest_header_block {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .esg_invest_header_block div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .esg_invest_header {
+    margin-top: 30px;
+  }
+  .esg_invest_header_left {
+    padding: 48px 8px;
+  }
+  .esg_invest_header_left svg {
+    padding-left: 18px;
+  }
+  .esg_invest_header_left h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56.492px; /* 282.46% */
+    letter-spacing: -1px;
+    margin: 12px 0 16px;
+  }
+  .esg_invest_header_left h2 br {
+    display: none;
+  }
+  .esg_invest_header_left p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.004px;
+  }
+  .esg_invest_header_right {
+    height: auto;
+  }
+  .esg_invest_block {
+    flex-direction: column;
+  }
+  .esg_invest_block div {
+    width: 100%;
+  }
+  .esg_invest_blocks .page_title {
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+  }
+  .esg_invest_block_left {
+    padding-right: 30px;
+  }
+  .esg_invest_block_left p {
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .esg_invest_block_left h2 {
+    padding-left: 20px !important;
+    font-size: 25px;
+    font-style: normal;
+    padding-top: 55px;
+    font-weight: 500;
+  }
+  .esg_invest_block:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .pi_aproaches {
+    padding-top: 0 !important;
+  }
+  .esg_invest_header_right img {
+    width: 100%;
+  }
 }

@@ -114,3 +114,91 @@
   font-weight: 400;
   line-height: normal;
 }
+.pi_mob {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .port_invest_header {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  .pi_road p {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .port_invest_header {
+    padding: 40px 10px 56px;
+  }
+  .port_invest_header h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.492px; /* 137.46% */
+    letter-spacing: -1px;
+    margin-bottom: 23px;
+  }
+  .port_invest_header p {
+    width: 100%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .port_invest_cards .page_title {
+    margin-bottom: 0;
+  }
+  .port_invest_card {
+    width: 225px;
+    height: 272px;
+    padding: 40px 10px 0;
+    margin-right: 5px;
+  }
+  .port_invest_card img {
+    width: 48px;
+  }
+  .port_invest_cards_wrapper {
+    width: 920px;
+  }
+  .port_invest_cards_block {
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .port_invest_card:nth-child(2) img {
+    width: 31px;
+  }
+  .port_invest_card h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 9px 0 14px;
+  }
+  .port_invest_card p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .pi_mob {
+    display: block;
+  }
+  .pi_desk {
+    display: none;
+  }
+  .pi_road h3 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .pi_road p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .pi_road {
+    margin-bottom: 80px !important;
+  }
+}

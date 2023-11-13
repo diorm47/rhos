@@ -19,7 +19,7 @@
 .i_str_header p {
   color: #fff;
   text-align: center;
-  width: 783px;
+  max-width: 783px;
   margin: 0 auto;
   font-size: 18px;
   font-style: normal;
@@ -37,7 +37,7 @@
 }
 
 .inv_str_cards {
-  width: 975px;
+  max-width: 975px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -100,4 +100,67 @@
   position: absolute;
   right: -100px;
   bottom: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  .inv_str_text_block {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .i_str_header {
+    padding: 50px 0 150px;
+  }
+  .i_str_header h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .inv_str_cards {
+    flex-direction: column;
+  }
+  .inv_str_card {
+    width: 100%;
+    height: auto;
+  }
+  .inv_str_text_block_card p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 20px;
+    width: auto;
+  }
+  .inv_str_cards {
+    padding-bottom: 0 !important;
+  }
+  .inv_str_text_block img {
+    top: 50px;
+    width: 80%;
+  }
+  .inv_str_text_block {
+    padding-top: 170px;
+  }
+  .inv_str_text p {
+    width: auto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+  }
+  .inv_str_text_block {
+    margin-bottom: 0 !important;
+  }
+  .inv_str_card h2 {
+    font-size: 16px;
+  }
+  .inv_str_card p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .i_str_header  {
+    margin-top: 0 !important;
+  }
 }
