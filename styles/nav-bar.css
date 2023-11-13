@@ -165,6 +165,8 @@ nav {
   position: absolute;
   left: -20px;
   top: -100px;
+  width: 900px;
+  right: -20px;
 }
 .nav_mob_menu_content div {
   position: relative;
