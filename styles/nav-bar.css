@@ -56,6 +56,7 @@ nav {
 
 .lang_toggler span {
   color: #b9b9b9;
+  font-size: 22px;
 }
 
 .nav_menu_list_btn {
@@ -197,5 +198,12 @@ nav {
 @media only screen and (max-width: 700px) {
   nav {
     padding-top: 50px;
+  }
+  .lang_toggler span {
+    color: #b9b9b9;
+    font-size: 16px;
+  }
+  .lang_toggler p {
+    margin-bottom: 0;
   }
 }
