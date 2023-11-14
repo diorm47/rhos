@@ -95,7 +95,25 @@ a {
 .p_120px_top {
   padding-top: 120px;
 }
+.footer_contacts {
+  margin-top: 20px;
+}
+.footer_contacts span, .footer_contacts a {
+  color:  #fff;
+}
 
+.footer_contacts a {
+  opacity: 0.8;
+  padding-left: 10px;
+}
+.footer_contacts a:hover, .rights a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.fca img {
+  width: 200px;
+  margin-top: 30px;
+}
 @media only screen and (max-width: 1260px) {
   .main_wrapper {
     width: 100%;
@@ -146,5 +164,21 @@ a {
   }
   .contacts_page_block .contact_form {
     margin-top: 40px;
+  }
+
+  .footer_contacts span, .footer_contacts a {
+    font-size: 12px;
+  }
+  .rights {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .rights p {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .fca img {
+    width: 130px;
+
   }
 }

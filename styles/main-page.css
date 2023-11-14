@@ -293,7 +293,11 @@
   height: 1px;
   margin: 0 auto;
 }
-
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .rights p {
   color: var(--white, #fff);
   padding: 31px 0;
